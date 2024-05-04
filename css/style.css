@@ -1,0 +1,220 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 200%;
+}
+
+p{
+    line-height: 2;
+}
+
+h1{
+    margin-top: 0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0px auto;
+    color: #66BFBF;
+}
+
+/*auto- gives the element same distance from left and right of the screen*/
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif; 
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px ;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+
+/*
+Sacremento
+Merriweather
+Montserrat
+
+you select them from fonts.google.com
+and embed them inside your website
+*/
+
+.top_container{
+    background-color: rgb(225, 247, 236);
+    padding-top: 100px;
+    position: relative;
+}
+
+.navbar{
+    display: inline-block;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100% ;
+    background-color: rgba(0, 0, 0, .7);
+    font-size: medium;
+    text-align: center;
+}
+
+.navbar-nav{
+    list-style: none;
+    display: flex;
+    margin: 15px auto 15px;
+}
+
+.nav-item{
+    text-align: center;
+    padding: 10px 35px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:rgb(115, 255, 236) 2px 2px;
+    font-weight: 500;
+    font-size: 1.5rem;
+
+}
+
+span{
+    text-decoration: underline;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+
+.profile-picture{
+    width: 14.3rem;
+    height: 14.3rem;
+}
+
+.skills-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+/*.skill-1description{
+    clear: left;
+}
+
+.guitar-skill-desription{
+    clear: right;
+}*/
+
+.guitar{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    
+}
+
+hr{
+    width: 5%;
+    height: 0px;
+    border-width: 4px;
+    border-color: #b8b9b9;
+    border-style: none;
+    border-bottom-style: dotted;
+    margin: 100px auto 60px auto;
+
+
+   /* border-color: gray;
+    border-width: 4px;
+    width: 10%;
+    height: 0px;
+    border-style: none;
+    border-top-style: dotted*/
+
+}
+
+.mail-link{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.mail{
+    background: linear-gradient(#11CDD4, #11999E);
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px 15px 10px 15px;
+    margin: 40px auto 45px auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mail:hover{
+    background: linear-gradient(#30E3CB, #2BC4AD);
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{  
+     background-color: #66BFBF;
+     width: 100%;
+     height: 20%;
+     margin-bottom: 100px;
+     padding: 50px  0px 20px;
+     margin: 50px 0px 2px 0px;
+     position: absolute;
+}
+
+.footer-link{
+    color: #11999E;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight:300;
+    font-size: small;
+    margin: 70px 0px 0px 0px;
+    line-height: 3;
+    position: relative;
+    top: 20px;
+}
+
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    font-weight: 100;
+    padding: 20px 0px;
+}
